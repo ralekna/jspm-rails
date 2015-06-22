@@ -20,7 +20,6 @@ System.config({
     "babel": "npm:babel-core@5.6.3",
     "babel-runtime": "npm:babel-runtime@5.6.2",
     "core-js": "npm:core-js@0.9.4",
-    "g00fy-/jspm-jsx-babel": "github:g00fy-/jspm-jsx-babel@0.0.1",
     "jsx": "github:floatdrop/plugin-jsx@1.1.0",
     "react": "npm:react@0.13.3",
     "react-router": "npm:react-router@0.11.6",
