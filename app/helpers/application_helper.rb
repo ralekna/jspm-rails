@@ -25,7 +25,7 @@ module ApplicationHelper
 
   def bundled_js_tags_for(*files)
     [
-      content_tag(:script, nil, src: "#{JS_BASE_PATH}jspm_packages/traceur-runtime.js"),
+      content_tag(:script, nil, src: "#{JS_BASE_PATH}jspm_packages/es6-module-loader.js"),
       files.map do |f|
         content_tag(:script, nil, src: bundle_url_for(f))
       end
