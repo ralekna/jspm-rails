@@ -16,3 +16,10 @@
 !/log/.keep
 /tmp
 /public/jsb
+
+# NetBeans project files
+/nbproject
+
+# jspm packages
+/public/js/jspm_packages
+/public/js/jspm_packages/*

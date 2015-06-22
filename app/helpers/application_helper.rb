@@ -13,7 +13,7 @@ module ApplicationHelper
 
   private
 
-  def bare_js_tags_for(*files)
+  def bare_js_tags_for(files)
     [
       content_tag(:script, nil, src: "#{JS_BASE_PATH}jspm_packages/system.js"),
       content_tag(:script, nil, src: "#{JS_BASE_PATH}config.js"),

@@ -2,8 +2,8 @@ System.config({
   "paths": {
     "*": "*.js",
     "jspm-rails/*": "lib/*.js",
-    "github:*": "js/jspm_packages/github/*.js",
-    "npm:*": "js/jspm_packages/npm/*.js"
+    "github:*": "jspm_packages/github/*.js",
+    "npm:*": "jspm_packages/npm/*.js"
   }
 });
 
@@ -12,6 +12,8 @@ System.config({
     "jsx": "github:floatdrop/plugin-jsx@0.1.1",
     "react": "npm:react@0.13.0-beta.1",
     "react-router": "npm:react-router@0.11.6",
+    "traceur": "github:jmcriffey/bower-traceur@0.0.87",
+    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87",
     "github:floatdrop/plugin-jsx@0.1.1": {
       "react-tools": "npm:react-tools@0.12.2"
     },
@@ -31,15 +33,12 @@ System.config({
       "events-browserify": "npm:events-browserify@0.0.1"
     },
     "github:jspm/nodelibs-fs@0.1.0": {
-      "assert": "npm:assert@1.3.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.0"
+      "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-http@1.7.0": {
       "Base64": "npm:Base64@0.2.1",
-      "events": "github:jspm/nodelibs-events@0.1.0",
       "inherits": "npm:inherits@2.0.1",
       "stream": "github:jspm/nodelibs-stream@0.1.0",
-      "url": "github:jspm/nodelibs-url@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "github:jspm/nodelibs-path@0.1.0": {
@@ -371,6 +370,7 @@ System.config({
       "isarray": "npm:isarray@0.0.1",
       "process": "github:jspm/nodelibs-process@0.1.0",
       "stream": "npm:stream-browserify@1.0.0",
+      "stream-browserify": "npm:stream-browserify@1.0.0",
       "string_decoder": "npm:string_decoder@0.10.31",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
