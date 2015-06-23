@@ -1,13 +1,19 @@
 {
   "jspm": {
-    "name": "jspm-rails",
     "directories": {
       "baseURL": "public/js"
     },
     "dependencies": {
-      "jsx": "jspm:jsx@^0.1.1",
-      "react": "jspm:react@0.13.0-beta.1",
-      "react-router": "jspm:react-router@^0.11.6"
+      "amdefine": "npm:amdefine@^0.1.1",
+      "babel": "npm:babel-core@^5.6.2",
+      "jsx": "github:floatdrop/plugin-jsx@^1.1.0",
+      "react": "npm:react@^0.13.3",
+      "react-router": "npm:react-router@^0.11.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.0.12",
+      "babel-runtime": "npm:babel-runtime@^5.0.12",
+      "core-js": "npm:core-js@^0.8.1"
     }
   }
 }
